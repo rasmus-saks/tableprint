@@ -12,7 +12,7 @@ Options:
   --header, -H           treat the first row as a header row
   --footer, -F           treat the last row as a footer row
   --style STYLE, -S STYLE
-                         set the table style: DEFAULT/DOUBLE/LIGHT/ROUNDED/BOLD/COLORED_BRIGHT/COLORED_DARK
+                         set the table style: DEFAULT/DOUBLE/LIGHT/ROUNDED/BOLD/COLORED_BRIGHT/COLORED_DARK [default: DEFAULT]
   --help, -h             display this help and exit
 ```
 
