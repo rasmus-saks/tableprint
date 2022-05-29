@@ -12,9 +12,9 @@ import (
 )
 
 type args struct {
-	Header bool    `arg:"-H" help:"Treats the first row as a header row"`
-	Footer bool    `arg:"-F" help:"Treats the last row as a footer row"`
-	Style  *string `arg:"-S" help:"Set the table style: DEFAULT/DOUBLE/LIGHT/ROUNDED/BOLD/COLORED_BRIGHT/COLORED_DARK"`
+	Header bool    `arg:"-H" help:"treat the first row as a header row"`
+	Footer bool    `arg:"-F" help:"treat the last row as a footer row"`
+	Style  *string `arg:"-S" help:"set the table style: DEFAULT/DOUBLE/LIGHT/ROUNDED/BOLD/COLORED_BRIGHT/COLORED_DARK"`
 	File   *string `arg:"positional"`
 }
 
